@@ -10,9 +10,14 @@ import { Image } from "expo-image";
 import { useWorkByIdQuery } from "@/data/hooks/useWorkByIdQuery";
 import { LoadingShade } from "@/components/LoadingShade";
 import * as Sharing from "expo-sharing";
+import { useState } from "react";
 
 import ImagePicker from "react-native-image-crop-picker";
-import { useState } from "react";
+import Marker, {
+  Position,
+  TextBackgroundType,
+  ImageFormat,
+} from "react-native-image-marker";
 
 export default function ShareWork() {
   const dimensions = useWindowDimensions();
@@ -44,7 +49,36 @@ export default function ShareWork() {
       height: 300,
       mediaType: "photo",
     });
-    setEditedImagePath(normalizeFilePath(image.path));
+
+    const markedImagePath = await Marker.markText({
+      backgroundImage: {
+        src: image.path,
+        scale: 1,
+      },
+      watermarkTexts: [
+        {
+          text: "#cma",
+          position: {
+            position: Position.bottomRight,
+          },
+          style: {
+            color: "#fff",
+            fontSize: 20,
+            textBackgroundStyle: {
+              type: TextBackgroundType.none,
+              color: "#000",
+              paddingX: 16,
+              paddingY: 6,
+            },
+          },
+        },
+      ],
+      quality: 100,
+      filename: image.filename,
+      saveFormat: ImageFormat.jpg,
+    });
+
+    setEditedImagePath(normalizeFilePath(markedImagePath));
   }
 
   return (
