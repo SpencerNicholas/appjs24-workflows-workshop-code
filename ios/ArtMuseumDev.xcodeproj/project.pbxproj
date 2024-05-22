@@ -10,37 +10,37 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2B0BF66AE43843DFA49A5544 /* HelloWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C792877C346AAA8BC915E /* HelloWidgetBundle.swift */; };
-		31DACA742EE848E78D81C503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63FD37130B345EBB1D15125 /* Assets.xcassets */; };
-		36C328475E6447C78A99987A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42014AB5FCB4331A88F0FB5 /* WidgetKit.framework */; };
+		3C8BA577E2134145829D67FB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D104845087449E28D4E18F6 /* WidgetKit.framework */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		5A120D1EC959435BA2D34714 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8D84C242EC49148AF2CD37 /* SwiftUI.framework */; };
-		5A175B5D06D94ADE8A3B0C6B /* HelloWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB7B4A3DAB0431CBBBF86A0 /* HelloWidget.swift */; };
-		7AEFC2EC72A74441B6B3A148 /* HelloWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 201BBEC627A64357B6DB7385 /* HelloWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72032B0519934F5D84572964 /* HelloWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2B2C03664CE144469B822D43 /* HelloWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7206705477FE4A40B35C0C4A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD794BA488864AD09C1CD3AB /* SwiftUI.framework */; };
+		90092B806D944907997F379F /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58707DF0564262927C9347 /* noop-file.swift */; };
+		9516394DA9FB4EA6BACC2E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8134BC773B0F49D1B4F4CEA4 /* Assets.xcassets */; };
 		96905EF65AED1B983A6B3ABC /* libPods-ArtMuseumDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-ArtMuseumDev.a */; };
+		AA77BEB7641D4875B23D5A45 /* HelloWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2D63327C344C8AE3D71D9 /* HelloWidgetBundle.swift */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		D27C85D5A0B54004BB538759 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58691B7D1046EC877F5AB6 /* noop-file.swift */; };
+		E702E6BD7C1341849DE4CEDC /* HelloWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B006004692644A37AE9889C7 /* HelloWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		585C369824FD4483BEC1A79C /* PBXContainerItemProxy */ = {
+		73D4D2282F024F838FC37546 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C41F09BD7FE045DB9925E297;
+			remoteGlobalIDString = 2B27A6F0CFBF45CDA879E4A3;
 			remoteInfo = HelloWidget;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2D5C8A6923844C20BBEA1EBF /* Embed Foundation Extensions */ = {
+		E4FEDD2CFD6D4211AB3A9D4B /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				7AEFC2EC72A74441B6B3A148 /* HelloWidget.appex in Embed Foundation Extensions */,
+				72032B0519934F5D84572964 /* HelloWidget.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,26 +48,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0AB7B4A3DAB0431CBBBF86A0 /* HelloWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = HelloWidget.swift; path = HelloWidget.swift; sourceTree = "<group>"; };
-		0F319BB266F941C08F4811CA /* ArtMuseumDev-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ArtMuseumDev-Bridging-Header.h"; path = "ArtMuseumDev/ArtMuseumDev-Bridging-Header.h"; sourceTree = "<group>"; };
+		0D104845087449E28D4E18F6 /* WidgetKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = undefined; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		13B07F961A680F5B00A75B9A /* ArtMuseumDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = wrapper.application; name = ArtMuseumDev.app; path = ArtMuseumDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ArtMuseumDev/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ArtMuseumDev/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ArtMuseumDev/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = Info.plist; path = ArtMuseumDev/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ArtMuseumDev/main.m; sourceTree = "<group>"; };
-		201BBEC627A64357B6DB7385 /* HelloWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; name = HelloWidget.appex; path = HelloWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		255C792877C346AAA8BC915E /* HelloWidgetBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = HelloWidgetBundle.swift; path = HelloWidgetBundle.swift; sourceTree = "<group>"; };
+		1A58707DF0564262927C9347 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "ArtMuseumDev/noop-file.swift"; sourceTree = "<group>"; };
+		2B2C03664CE144469B822D43 /* HelloWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; name = HelloWidget.appex; path = HelloWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		415B20515ACA4D4988A3EB05 /* ArtMuseumDev-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ArtMuseumDev-Bridging-Header.h"; path = "ArtMuseumDev/ArtMuseumDev-Bridging-Header.h"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-ArtMuseumDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = archive.ar; name = "libPods-ArtMuseumDev.a"; path = "libPods-ArtMuseumDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5957158C25FB4F7FA23595F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
-		5B8D84C242EC49148AF2CD37 /* SwiftUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = undefined; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		6C2E3173556A471DD304B334 /* Pods-ArtMuseumDev.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtMuseumDev.debug.xcconfig"; path = "Target Support Files/Pods-ArtMuseumDev/Pods-ArtMuseumDev.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-ArtMuseumDev.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtMuseumDev.release.xcconfig"; path = "Target Support Files/Pods-ArtMuseumDev/Pods-ArtMuseumDev.release.xcconfig"; sourceTree = "<group>"; };
+		8134BC773B0F49D1B4F4CEA4 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FA2D63327C344C8AE3D71D9 /* HelloWidgetBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = HelloWidgetBundle.swift; path = HelloWidgetBundle.swift; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = ArtMuseumDev/SplashScreen.storyboard; sourceTree = "<group>"; };
-		B42014AB5FCB4331A88F0FB5 /* WidgetKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = undefined; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B006004692644A37AE9889C7 /* HelloWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = HelloWidget.swift; path = HelloWidget.swift; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = Expo.plist; path = Expo.plist; sourceTree = "<group>"; };
-		C63FD37130B345EBB1D15125 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC58691B7D1046EC877F5AB6 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "ArtMuseumDev/noop-file.swift"; sourceTree = "<group>"; };
+		C7B78E9736F542BDB1E21F7C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD794BA488864AD09C1CD3AB /* SwiftUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = undefined; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = undefined; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ArtMuseumDev/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,18 +81,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91D00B9D632542B6B980238D /* Frameworks */ = {
+		C3B7FC3347E945C08FC10A68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C328475E6447C78A99987A /* WidgetKit.framework in Frameworks */,
-				5A120D1EC959435BA2D34714 /* SwiftUI.framework in Frameworks */,
+				3C8BA577E2134145829D67FB /* WidgetKit.framework in Frameworks */,
+				7206705477FE4A40B35C0C4A /* SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02089A8ABADE42C2B85A7198 /* HelloWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B006004692644A37AE9889C7 /* HelloWidget.swift */,
+				9FA2D63327C344C8AE3D71D9 /* HelloWidgetBundle.swift */,
+				8134BC773B0F49D1B4F4CEA4 /* Assets.xcassets */,
+				C7B78E9736F542BDB1E21F7C /* Info.plist */,
+			);
+			name = HelloWidget;
+			path = ../widgets/ios/;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* ArtMuseumDev */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +115,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				EC58691B7D1046EC877F5AB6 /* noop-file.swift */,
-				0F319BB266F941C08F4811CA /* ArtMuseumDev-Bridging-Header.h */,
+				1A58707DF0564262927C9347 /* noop-file.swift */,
+				415B20515ACA4D4988A3EB05 /* ArtMuseumDev-Bridging-Header.h */,
 			);
 			name = ArtMuseumDev;
 			sourceTree = "<group>";
@@ -114,8 +126,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-ArtMuseumDev.a */,
-				B42014AB5FCB4331A88F0FB5 /* WidgetKit.framework */,
-				5B8D84C242EC49148AF2CD37 /* SwiftUI.framework */,
+				0D104845087449E28D4E18F6 /* WidgetKit.framework */,
+				CD794BA488864AD09C1CD3AB /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,7 +142,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				B4B99C120DFB4E33B1C17DE4 /* HelloWidget */,
+				02089A8ABADE42C2B85A7198 /* HelloWidget */,
 				13B07FAE1A68108700A75B9A /* ArtMuseumDev */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -147,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* ArtMuseumDev.app */,
-				201BBEC627A64357B6DB7385 /* HelloWidget.appex */,
+				2B2C03664CE144469B822D43 /* HelloWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,18 +170,6 @@
 				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
 			);
 			name = ArtMuseumDev;
-			sourceTree = "<group>";
-		};
-		B4B99C120DFB4E33B1C17DE4 /* HelloWidget */ = {
-			isa = PBXGroup;
-			children = (
-				0AB7B4A3DAB0431CBBBF86A0 /* HelloWidget.swift */,
-				255C792877C346AAA8BC915E /* HelloWidgetBundle.swift */,
-				C63FD37130B345EBB1D15125 /* Assets.xcassets */,
-				5957158C25FB4F7FA23595F9 /* Info.plist */,
-			);
-			name = HelloWidget;
-			path = ../widgets/ios/;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -206,32 +206,32 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ArtMuseumDev" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				8E219F04127E8FBE307384A1 /* [Expo] Configure project */,
+				F87C4D63F5B53A2B28EE2B67 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				2D5C8A6923844C20BBEA1EBF /* Embed Foundation Extensions */,
-				1F5CBF978B0A1065034708B8 /* [CP] Embed Pods Frameworks */,
+				E4FEDD2CFD6D4211AB3A9D4B /* Embed Foundation Extensions */,
+				87A0AC5A485075ADB93CAF3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				31416062A88149FC83398F70 /* PBXTargetDependency */,
+				DF798B398A6447EF976FC5A6 /* PBXTargetDependency */,
 			);
 			name = ArtMuseumDev;
 			productName = ArtMuseumDev;
 			productReference = 13B07F961A680F5B00A75B9A /* ArtMuseumDev.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C41F09BD7FE045DB9925E297 /* HelloWidget */ = {
+		2B27A6F0CFBF45CDA879E4A3 /* HelloWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E57A82FB4D244D6BE97F313 /* Build configuration list for PBXNativeTarget "HelloWidget" */;
+			buildConfigurationList = B4DDE7BA0DC7402CB673BA37 /* Build configuration list for PBXNativeTarget "HelloWidget" */;
 			buildPhases = (
-				3AE80186C1E24DA0BA72304C /* Sources */,
-				91D00B9D632542B6B980238D /* Frameworks */,
-				EE68680FCE1E4D4F8C29FAD8 /* Resources */,
+				525C8E64217D4BE1BC50728A /* Sources */,
+				C3B7FC3347E945C08FC10A68 /* Frameworks */,
+				37A168513E5F4D41B3685E44 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +239,7 @@
 			);
 			name = HelloWidget;
 			productName = HelloWidget;
-			productReference = 201BBEC627A64357B6DB7385 /* HelloWidget.appex */;
+			productReference = 2B2C03664CE144469B822D43 /* HelloWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1250;
 					};
-					C41F09BD7FE045DB9925E297 = {
+					2B27A6F0CFBF45CDA879E4A3 = {
 						CreatedOnToolsVersion = 14.3;
 						DevelopmentTeam = undefined;
 						ProvisioningStyle = Automatic;
@@ -274,7 +274,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* ArtMuseumDev */,
-				C41F09BD7FE045DB9925E297 /* HelloWidget */,
+				2B27A6F0CFBF45CDA879E4A3 /* HelloWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -290,11 +290,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE68680FCE1E4D4F8C29FAD8 /* Resources */ = {
+		37A168513E5F4D41B3685E44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31DACA742EE848E78D81C503 /* Assets.xcassets in Resources */,
+				9516394DA9FB4EA6BACC2E36 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,24 +340,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1F5CBF978B0A1065034708B8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ArtMuseumDev/Pods-ArtMuseumDev-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtMuseumDev/Pods-ArtMuseumDev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
@@ -406,7 +388,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtMuseumDev/Pods-ArtMuseumDev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8E219F04127E8FBE307384A1 /* [Expo] Configure project */ = {
+		87A0AC5A485075ADB93CAF3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtMuseumDev/Pods-ArtMuseumDev-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtMuseumDev/Pods-ArtMuseumDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87C4D63F5B53A2B28EE2B67 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -435,26 +435,26 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				D27C85D5A0B54004BB538759 /* noop-file.swift in Sources */,
+				90092B806D944907997F379F /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AE80186C1E24DA0BA72304C /* Sources */ = {
+		525C8E64217D4BE1BC50728A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0BF66AE43843DFA49A5544 /* HelloWidgetBundle.swift in Sources */,
-				5A175B5D06D94ADE8A3B0C6B /* HelloWidget.swift in Sources */,
+				AA77BEB7641D4875B23D5A45 /* HelloWidgetBundle.swift in Sources */,
+				E702E6BD7C1341849DE4CEDC /* HelloWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		31416062A88149FC83398F70 /* PBXTargetDependency */ = {
+		DF798B398A6447EF976FC5A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C41F09BD7FE045DB9925E297 /* HelloWidget */;
-			targetProxy = 585C369824FD4483BEC1A79C /* PBXContainerItemProxy */;
+			target = 2B27A6F0CFBF45CDA879E4A3 /* HelloWidget */;
+			targetProxy = 73D4D2282F024F838FC37546 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -519,7 +519,7 @@
 			};
 			name = Release;
 		};
-		264893CB6C46407AAC0DB55A /* Release */ = {
+		22C512D84D814AA7B4DD640D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "$accent";
@@ -555,44 +555,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
-		};
-		41DC4CD506C94F298145E294 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "$accent";
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = "$widgetBackground";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ../widgets/ios//Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HelloWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.expo.appjs24-workflows-workshop-code-dev.HelloWidget";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ArtMuseumDev/ArtMuseumDev-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -719,6 +681,44 @@
 			};
 			name = Release;
 		};
+		A42DED9BDEC0499C801B5D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "$accent";
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = "$widgetBackground";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ../widgets/ios//Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HelloWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.expo.appjs24-workflows-workshop-code-dev.HelloWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ArtMuseumDev/ArtMuseumDev-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -731,20 +731,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E57A82FB4D244D6BE97F313 /* Build configuration list for PBXNativeTarget "HelloWidget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				41DC4CD506C94F298145E294 /* Debug */,
-				264893CB6C46407AAC0DB55A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ArtMuseumDev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DDE7BA0DC7402CB673BA37 /* Build configuration list for PBXNativeTarget "HelloWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42DED9BDEC0499C801B5D97 /* Debug */,
+				22C512D84D814AA7B4DD640D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

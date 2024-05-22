@@ -18,6 +18,7 @@ import Marker, {
   TextBackgroundType,
   ImageFormat,
 } from "react-native-image-marker";
+import { saveLatestShare, updateWidget } from "@/widgets/common/widget-share";
 
 export default function ShareWork() {
   const dimensions = useWindowDimensions();
@@ -38,6 +39,8 @@ export default function ShareWork() {
 
   async function share() {
     if (editedImagePath) {
+      await saveLatestShare(editedImagePath);
+      await updateWidget();
       await Sharing.shareAsync(editedImagePath);
     }
   }
