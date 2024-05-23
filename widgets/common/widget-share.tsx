@@ -1,7 +1,16 @@
+import iosWidgetRefresh from "@/modules/ios-widget-refresh";
 import * as RNFS from "@dr.pogodin/react-native-fs";
+import { Platform } from "react-native";
 
 // you'll find out why this is async later
 async function getLatestShareFilePath() {
+  if (Platform.OS === "ios") {
+    const path =
+      (await RNFS.pathForGroup("group.appjs24-workflows-workshop-code")) +
+      "/latest_share.jpg";
+    console.log("path===", path);
+    return path;
+  }
   return `${RNFS.DocumentDirectoryPath}/latest_share.jpg`;
 }
 
@@ -23,5 +32,8 @@ export async function readLatestShareAsBase64() {
 }
 
 export async function updateWidget() {
-  // TODO
+  // leave android code alone
+  if (Platform.OS === "ios") {
+    iosWidgetRefresh.reloadWidget();
+  }
 }

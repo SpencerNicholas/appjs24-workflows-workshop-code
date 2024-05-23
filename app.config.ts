@@ -21,16 +21,19 @@ module.exports = ({ config }: { config: ExpoConfig }) => {
       assetBundlePatterns: ["**/*"],
       ios: {
         supportsTablet: true,
-        bundleIdentifier:
-          "com.expo.appjs24-workflows-workshop-code" + (IS_DEV ? "-dev" : ""),
+        bundleIdentifier: "com.expo.appjs24-workflows-workshop-code",
+        entitlements: {
+          "com.apple.security.application-groups": [
+            "group.appjs24-workflows-workshop-code",
+          ],
+        },
       },
       android: {
         adaptiveIcon: {
           foregroundImage: "./assets/images/adaptive-icon.png",
           backgroundColor: "#ffffff",
         },
-        package:
-          "com.expo.appjs24workflowsworkshopcode" + (IS_DEV ? "dev" : ""),
+        package: "com.expo.appjs24workflowsworkshopcode",
       },
       web: {
         bundler: "metro",

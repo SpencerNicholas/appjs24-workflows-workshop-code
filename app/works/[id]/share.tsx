@@ -41,7 +41,8 @@ export default function ShareWork() {
     if (editedImagePath) {
       await saveLatestShare(editedImagePath);
       await updateWidget();
-      await Sharing.shareAsync(editedImagePath);
+      alert("Done");
+      // await Sharing.shareAsync(editedImagePath);
     }
   }
 
